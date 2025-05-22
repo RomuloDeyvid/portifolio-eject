@@ -151,7 +151,5 @@ export default defineComponent({
     }
 }
 
-@media (min-width: 2561) and (max-width: 3840px) {
-    .demo {}
-}
+
 </style>
