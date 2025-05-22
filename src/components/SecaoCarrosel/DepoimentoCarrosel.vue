@@ -41,32 +41,32 @@ interface Depoimento {
 // Dados dos depoimentos
 const depoimentos: Depoimento[] = reactive([
     {
-        imagem: "../../../public/assets/imagens/cassiano.jpg",
+        imagem: "https://raw.githubusercontent.com/RomuloDeyvid/portifolio-eject/refs/heads/master/public/assets/imagens/cassiano.jpg",
         texto: "O site ficou muito bom, todas as demandas foram atendidas prontamente. O serviço prestado atendeu a todas as nossas expectativas",
         cargo: "Cassiano Trovão - Coordenador do Projeto de extensão ISM"
     },
     {
-        imagem: "../../../public/assets/imagens/edimar.jpg",
+        imagem: "https://github.com/RomuloDeyvid/portifolio-eject/blob/master/public/assets/imagens/edimar.jpg?raw=true",
         texto: "Fomos muito bem atendidos durante toda a execução do projeto. Apesar de algumas dificuldades mútuas de entendimento pelas diferenças das área em que atuamos, a equipe foi muito didática e paciente para que todos os passos do projeto fossem compreendidos e executados da melhor maneira. Estamos muito satisfeitos.",
         cargo: "Edimar Rockembach - Negócios e MICE da Visit Iguaçu CVB"
     },
     {
-        imagem: "../../../public/assets/imagens/karen.jpg",
+        imagem: "https://github.com/RomuloDeyvid/portifolio-eject/blob/master/public/assets/imagens/karen.jpg?raw=true",
         texto: "Adorei o projeto, ficou do jeito que pensamos. A equipe foi transparente e organizada.",
         cargo: "Karen Edyanne - Vice-presidente da Enfasis Jr"
     },
     {
-        imagem: "../../../public/assets/imagens/larissa.jpg",
+        imagem: "https://github.com/RomuloDeyvid/portifolio-eject/blob/master/public/assets/imagens/larissa.jpg?raw=true",
         texto: "Muito satisfeita com o atendimento!",
         cargo: "Larissa Borsato - Gerente de relacionamento do Maceió CVB"
     },
     {
-        imagem: "../../../public/assets/imagens/kalliny.jpg",
+        imagem: "https://github.com/RomuloDeyvid/portifolio-eject/blob/master/public/assets/imagens/kalliny.jpg?raw=true",
         texto: "A ideia criativa foi minha e vocês criaram um produto que atendeu todas as expectativas da minha ideia. Parabéns a toda equipe da Eject!",
         cargo: "Kalliny Gomes - Gerente Executiva do Natal Convention Bureau"
     },
     {
-        imagem: "../../../public/assets/imagens/heitor.jpg",
+        imagem: "https://github.com/RomuloDeyvid/portifolio-eject/blob/master/public/assets/imagens/heitor.jpg?raw=true",
         texto: "Parabenizo a equipe pelo profissionalismo, compreensão com os limites de se trabalhar com o serviço público e competência na realização dos produtos.",
         cargo: "Heitor Andrade - Coordenador do Projeto de extensão PPGAU"
     }
