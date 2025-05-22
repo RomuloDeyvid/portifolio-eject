@@ -25,6 +25,11 @@
 <script lang="ts">
 import ContainerCarrosel from '../teste/ContainerCarrosel.vue';
 
+function clickNext(){
+    (document.querySelectorAll(".carousel-card-arrow-right")[0] as HTMLElement).click()
+    console.log("clicou no next")
+}
+
 export default {
     data() {
         return {
@@ -38,6 +43,7 @@ export default {
     methods: {
         filtrar() {
             console.log(this.tipoDeProjeto)
+            clickNext()
         }
     }
 }

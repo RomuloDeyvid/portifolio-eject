@@ -1,6 +1,6 @@
 <template>
     <section>
-        <h2 class="titulo-secao">DESENVOLVEDORES DO PORRFÓLIO</h2>
+        <h2 class="titulo-secao">DESENVOLVEDORES DO PORTFÓLIO</h2>
         <div class="secao-desenvolvedores">
             <div class="carousel carousel-center bg-neutral rounded-box space-x-4">
                 <div class="carousel-item">
