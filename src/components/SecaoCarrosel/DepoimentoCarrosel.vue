@@ -133,6 +133,19 @@ onMounted(() => {
             // Centralizar o carrossel se não for maior que a tela
             position.value = (window.innerWidth - carousel.scrollWidth) / 2;
         }
+///// Movimento do carrossel automatico 
+
+        setInterval(() => {
+            const maxScroll = window.innerWidth - carousel.scrollWidth;
+            const step = -1.5; // velocidade do movimento (negativo = para esquerda)
+
+            // Move até o fim, depois reinicia
+            if (position.value <= maxScroll) {
+                position.value = 0;
+            } else {
+                position.value += step;
+            }
+        }, 20);  //aqui determina o tempo em milesegundos
     }
 });
 </script>
