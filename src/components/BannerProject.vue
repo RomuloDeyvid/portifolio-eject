@@ -23,25 +23,50 @@ export default defineComponent({
 
 <style scoped>
 .banner {
-    width: 100%;
-    height: 340px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.banner-logo{
-    width: 300px;
-    height: 300px;
+  width: 100%;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
 }
 
+.banner-logo {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+  transition: all 0.3s ease;  
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .banner {
+    height: 260px;
+  }
+  
+  .banner-logo {
+    max-width: 85%;
+    max-height: 85%;
+  }
+}
+
+/* Mobile */
 @media (max-width: 768px) {
-    .banner {
-        height: 174px;
-    }
+  .banner {
+    height: 174px;
+  }
+  
+  .banner-logo {
+    max-width: 90%;
+    max-height: 90%;
+  }
+}
 
-    img {
-        height: 76px;
-    }
-
+/* Mobile pequeno */
+@media (max-width: 480px) {
+  .banner {
+    height: 150px;
+  }
 }
 </style>
