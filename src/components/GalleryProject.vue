@@ -54,7 +54,7 @@ export default defineComponent({
                 </div>
             </div>
             <div class="textGallery">
-                <p>{{ projeto.descricao }}</p>
+                <p class="descricao">{{ projeto.descricao }}</p>
                 <a :href="projeto.link"><button>VER MAIS</button></a>
             </div>
         </div>
@@ -149,6 +149,12 @@ section {
         height: auto;
         padding-right: 10px;
     }
+    .textGallery p {
+    
+    font-size: 14px;
+    line-height: 15px;
+    
+}
 }
 
 
@@ -189,7 +195,11 @@ section {
     }
 
     .textGallery button {
-        display: none;
+        margin-top: 1em;
+        width: 100px;
+        height: 30px;
+        font-size: 0.75rem;
+        line-height: 16.43px;
         
     }
 }

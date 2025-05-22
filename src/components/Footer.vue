@@ -21,16 +21,15 @@
                 <h6 class="footer-title tiulo-footer">Serviços</h6>
                 <a class="link link-hover link-footer">Sites e sistemas</a>
                 <a class="link link-hover link-footer">E-commerce</a>
-                <a class="link link-hover link-footer">Concepção</a>
+                <a class="link link-hover link-footer">Landing pages</a>
             </nav>
             <nav class="item">
                 <h6 class="footer-title tiulo-footer">Endereço</h6>
-                <a class="link link-hover link-footer">inOACTA -R. Monte Sinai,1828 - Capim Macio, Natal- RN,
-                    59078-360</a>
+                <a class="link link-hover link-footer">Anel Viário Contorno do Campus s/n - Capim Macio, Natal - RN, 59078-970</a>
             </nav>
             <nav class="item">
                 <h6 class="footer-title tiulo-footer">Fale conosco</h6>
-                <a class="link link-hover link-footer">+55 (84) 99226-4221</a>
+                <a class="link link-hover link-footer">+55 (84) 9 9127-4454</a>
                 <a class="link link-hover link-footer">contato@eject.com.br</a>
             </nav>
         </div>
