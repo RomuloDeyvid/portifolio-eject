@@ -5,7 +5,7 @@ import Colors from '@/components/Colors.vue';
 import Logotipos from '@/components/Logotipos.vue';
 import Tecnologias from '@/components/Tecnologias.vue'
 import TecnologiasProjetos from '@/components/TecnologiasProjetos.vue';
-import Projeto from '@/types/Projeto.vue';
+import  type { Projeto } from '../../types/index';
 export default{
     components:{ BannerProject, GalleryProject, Colors, Logotipos, TecnologiasProjetos}
 }
