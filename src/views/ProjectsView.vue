@@ -5,6 +5,7 @@ import Colors from '@/components/Colors.vue';
 import Logotipos from '@/components/Logotipos.vue';
 import Tecnologias from '@/components/Tecnologias.vue'
 import TecnologiasProjetos from '@/components/TecnologiasProjetos.vue';
+import Projeto from '@/types/Projeto.vue';
 export default{
     components:{ BannerProject, GalleryProject, Colors, Logotipos, TecnologiasProjetos}
 }
@@ -13,11 +14,11 @@ export default{
 
 <template>
     <main>
-        <BannerProject :projeto="{}"></BannerProject>
-        <GalleryProject :projeto="{}"></GalleryProject>
-        <Colors :projeto="{}"></Colors>
-        <Logotipos :projeto="{}"></Logotipos>
-        <TecnologiasProjetos :projeto="{}"></TecnologiasProjetos>
+        <BannerProject :projeto="{} as Projeto"></BannerProject>
+        <GalleryProject :projeto="{} as Projeto"></GalleryProject>
+        <Colors :projeto="{} as Projeto"></Colors>
+        <Logotipos :projeto="{} as Projeto"></Logotipos>
+        <TecnologiasProjetos :projeto="{} as Projeto"></TecnologiasProjetos>
     </main>
 </template>
 

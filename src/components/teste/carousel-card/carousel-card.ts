@@ -1,4 +1,5 @@
-import { ToRefs, Ref, UnwrapRef } from 'vue'
+import type { ToRefs } from 'vue'
+import type { Ref, UnwrapRef } from 'vue'
 
 export interface ICarouselCardItemProps {
   key?: string
