@@ -10,7 +10,7 @@
         </div>
 
         <div class="navbar-center lg:flex secao-titulo">
-            <p class="texto-portifolio">PORTIFÓLIO</p>
+            <p class="texto-portifolio">PORTFÓLIO</p>
         </div>
 
 

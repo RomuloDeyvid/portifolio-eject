@@ -174,60 +174,115 @@ export default defineComponent({
   left: -2rem;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 320px) {
+  #clase-teste {
+    height: 10rem;
+    left: -1.5rem;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 360px) {
   #clase-teste {
     height: 12rem;
     left: -2rem;
   }
 }
 
-@media (min-width: 361px) and (max-width: 599px) {
-  #clase-teste {
-    height: 12rem;
-    left: -3.5rem;
-  }
-}
-
-@media (min-width: 600px) and (max-width: 799px) {
+@media (min-width: 361px) and (max-width: 480px) {
   #clase-teste {
     height: 12rem;
     left: -3rem;
   }
 }
 
-@media (min-width: 800px) and (max-width: 999px) {
+@media (min-width: 481px) and (max-width: 599px) {
+  #clase-teste {
+    height: 12rem;
+    left: -3.5rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 699px) {
+  #clase-teste {
+    height: 14rem;
+    left: -3rem;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 799px) {
+  #clase-teste {
+    height: 16rem;
+    left: -3.5rem;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 899px) {
   #clase-teste {
     height: 18rem;
     left: -4rem;
   }
 }
 
-@media (min-width: 1000px) and (max-width: 1199px) {
+@media (min-width: 900px) and (max-width: 999px) {
+  #clase-teste {
+    height: 19rem;
+    left: -4.5rem;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1099px) {
   #clase-teste {
     height: 20rem;
     left: -4rem;
   }
 }
 
-@media (min-width: 1200px) and (max-width: 1399px) {
+@media (min-width: 1100px) and (max-width: 1199px) {
   #clase-teste {
-    height: 22rem;
-    left: -5.5rem;
+    height: 21rem;
+    left: -4.5rem;
   }
-
 }
 
-@media (min-width: 1400px) and (max-width: 1599px) {
+@media (min-width: 1200px) and (max-width: 1299px) {
   #clase-teste {
     height: 22rem;
+    left: -5rem;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+  #clase-teste {
+    height: 23rem;
+    left: -5.5rem;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1499px) {
+  #clase-teste {
+    height: 22rem;
+    left: -6.5rem;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1599px) {
+  #clase-teste {
+    height: 23rem;
     left: -7rem;
   }
 }
 
-@media (min-width: 1600px) and (max-width: 1800px) {
+@media (min-width: 1600px) and (max-width: 1699px) {
+  #clase-teste {
+    left: -7.5rem;
+    height: 25rem;
+  }
+}
+
+@media (min-width: 1700px) and (max-width: 1800px) {
   #clase-teste {
     left: -8rem;
-    height: 25rem;
+    height: 26rem;
   }
 }
 
@@ -235,11 +290,11 @@ export default defineComponent({
   #clase-teste {
     width: 65%;
     left: -6rem;
-
+    height: 26rem;
   }
 }
 
-@media (min-width: 1921px) and (max-width: 2048px) {
+@media (min-width: 1921px) and (max-width: 2160px) {
   #clase-teste {
     width: 65%;
     left: -6rem;
@@ -247,7 +302,15 @@ export default defineComponent({
   }
 }
 
-@media (min-width: 2049px) and (max-width: 2560px) {
+@media (min-width: 2161px) and (max-width: 2304px) {
+  #clase-teste {
+    width: 65%;
+    left: -7rem;
+    height: 29rem;
+  }
+}
+
+@media (min-width: 2305px) and (max-width: 2560px) {
   #clase-teste {
     width: 65%;
     left: -7.5rem;
@@ -255,11 +318,35 @@ export default defineComponent({
   }
 }
 
-@media (min-width: 2561) and (max-width: 3840px) {
+@media (min-width: 2561px) and (max-width: 2880px) {
   #clase-teste {
     width: 65%;
     left: -7.5rem;
+    height: 35rem;
+  }
+}
+
+@media (min-width: 2881px) and (max-width: 3440px) {
+  #clase-teste {
+    width: 65%;
+    left: -8rem;
+    height: 38rem;
+  }
+}
+
+@media (min-width: 3441px) and (max-width: 3840px) {
+  #clase-teste {
+    width: 65%;
+    left: -8.5rem;
     height: 40rem;
+  }
+}
+
+@media (min-width: 3841px) {
+  #clase-teste {
+    width: 60%;
+    left: -9rem;
+    height: 45rem;
   }
 }
 </style>

@@ -21,6 +21,9 @@ export default {}
 </script>
 
 <style scoped>
+section{
+    padding-left: 0;
+}
 .secao-video-titulo {
     color: #FFF;
     font-family: Montserrat;
@@ -127,15 +130,13 @@ export default {}
 }
 
 @media (min-width: 360px) and (max-width: 499px) {
-    /* .secao-video {
-        background-size: contain;
-    } */
 
     .secao-video-titulo {
         font-size: 16px;
         line-height: 30px;
         margin-top: 0.5rem;
         width: 90%;
+        
     }
 
     .video-player {
@@ -149,6 +150,9 @@ export default {}
 
     .secao-video {
         row-gap: 0.5em;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
     }
 }
 </style>
