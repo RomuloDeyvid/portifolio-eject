@@ -68,7 +68,7 @@ section {
 }
 
 .content-gallery {
-    max-width: 1160px;
+    
     background-color: white;
     display: flex;
     margin-top: 37px;
@@ -84,6 +84,7 @@ section {
 }
 
 .thumbnails {
+    
     display: flex;
     justify-content: space-between
 }
@@ -184,6 +185,7 @@ section {
     }
 
     .thumbnails {
+        margin-top: 1em;
         max-width: 600px;
     }
 

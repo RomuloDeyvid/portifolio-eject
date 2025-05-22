@@ -5,14 +5,16 @@
             <div class="carousel carousel-center bg-neutral rounded-box space-x-4">
                 <div class="carousel-item">
                     <div class="desenvolvedor">
-                        <div class="secao-foto-desenvolvedor">
-                            <img src="../assets/imagens/bia.png" alt="Beatriz Xavier" class="foto-desenvolvedor">
-                            <div class="secao-dados-desenvolvedor">
-                                <p class="nome-desenvolvedor-hover">Beatriz Xavier</p>
-                                <p class="cargo-desenvolvedor">UX/UI Designer</p>
-                            </div>
+                        <a href="https://www.linkedin.com/in/beatriz-xavier-339232287/">
+                            <div class="secao-foto-desenvolvedor">
+                                <img src="../assets/imagens/bia.png" alt="Beatriz Xavier" class="foto-desenvolvedor">
+                                <div class="secao-dados-desenvolvedor">
+                                    <p class="nome-desenvolvedor-hover">Beatriz Xavier</p>
+                                    <p class="cargo-desenvolvedor">UX/UI Designer</p>
+                                </div>
 
-                        </div>
+                            </div>
+                        </a>
 
                     </div>
                 </div>
@@ -32,19 +34,19 @@
                     </a>
                 </div>
                 <div class="carousel-item">
-                    <!-- <a href="https://www.linkedin.com/in/romulodeyvid/"> -->
-                    <div class="desenvolvedor">
-                        <div class="secao-foto-desenvolvedor">
-                            <img src="../assets/imagens/rafael.jpg" alt="Rafael Nonato" class="foto-desenvolvedor">
-                            <div class="secao-dados-desenvolvedor">
-                                <p class="nome-desenvolvedor-hover">Rafael Nonato</p>
-                                <p class="cargo-desenvolvedor">Front-End</p>
+                    <a href="https://www.linkedin.com/in/rafael-nonato-063656134/">
+                        <div class="desenvolvedor">
+                            <div class="secao-foto-desenvolvedor">
+                                <img src="../assets/imagens/rafael.jpg" alt="Rafael Nonato" class="foto-desenvolvedor">
+                                <div class="secao-dados-desenvolvedor">
+                                    <p class="nome-desenvolvedor-hover">Rafael Nonato</p>
+                                    <p class="cargo-desenvolvedor">Front-End</p>
+                                </div>
+
                             </div>
 
                         </div>
-
-                    </div>
-                    <!-- </a> -->
+                    </a>
                 </div>
 
 
