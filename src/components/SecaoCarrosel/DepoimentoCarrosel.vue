@@ -47,7 +47,7 @@ const depoimentos: Depoimento[] = reactive([
     },
     {
         imagem: "https://github.com/RomuloDeyvid/portifolio-eject/blob/master/public/assets/imagens/edimar.jpg?raw=true",
-        texto: "Fomos muito bem atendidos durante toda a execução do projeto. Apesar de algumas dificuldades mútuas de entendimento pelas diferenças das área em que atuamos, a equipe foi muito didática e paciente para que todos os passos do projeto fossem compreendidos e executados da melhor maneira. Estamos muito satisfeitos.",
+        texto: "Fomos muito bem atendidos. Apesar de algumas dificuldades mútuas de entendimento, a equipe foi muito didática e paciente. Estamos muito satisfeitos.",
         cargo: "Edimar Rockembach - Negócios e MICE da Visit Iguaçu CVB"
     },
     {
@@ -305,7 +305,7 @@ section {
     }
 
     .titulo-secao::before {
-        left: 8px;
+        
         bottom: 2px;
         width: 3px;
         height: 17px;
@@ -347,11 +347,17 @@ section {
         width: 190px;
         height: 140px;
     }
+    .carousel-container {
+    width: 90%;
+             
+    
+}
 }
 
 @media (min-width: 500px) and (max-width: 699px) {
     .carousel-container {
         padding: 0 5%;
+        width: 90%;
     }
 
     .titulo-secao {
